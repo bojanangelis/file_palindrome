@@ -40,7 +40,7 @@ int main() {
             }
         }
     }
-    if (maxLen != 0) {
+    if (maxLen) {
         puts(max);
     } else {
         printf("Nema!");
